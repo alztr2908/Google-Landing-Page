@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+/* Font for Google logo | Wala sa google font */
+@font-face {
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Open Sans"), local("OpenSans"), url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format("woff2");
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  min-height: 100vh;
+}
+
+nav {
+  padding: 10px;
+}
+
+.nav-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-right: 10px;
+  height: 48px;
+}
+
+.nav-links li {
+  font-size: 15px;
+  padding-left: 15px;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  color: rgba(0, 0, 0, 0.87);
+  font-weight: 100;
+}
+
+.nav-links .gb_Ka {
+  background-size: 64px 64px;
+  border: 0;
+  border-radius: 50%;
+  display: block;
+  margin: 0;
+  position: relative;
+  height: 32px;
+  width: 32px;
+  z-index: 0;
+  bottom: 4px;
+}
+
+.gb_Cc {
+  height: 35px;
+  width: 35px;
+  padding: 4px;
+  position: relative;
+  bottom: 4px;
+}
+
+main {
+  display: -ms-grid;
+  display: grid;
+}
+
+.logo {
+  margin: 0 auto;
+  height: 238px;
+}
+
+.logo .title {
+  position: relative;
+  top: 138px;
+  margin-top: -50px;
+  font-family: 'Product Sans';
+  font-size: 6rem;
+  font-weight: 600;
+}
+
+.logo .blue {
+  color: #4285f4;
+}
+
+.logo .red {
+  color: #ea4335;
+}
+
+.logo .tilt {
+  display: inline-block;
+  -webkit-transform: rotate(-20deg);
+          transform: rotate(-20deg);
+}
+
+.logo .green {
+  color: #34a853;
+}
+
+.logo .yellow {
+  color: #fbbc05;
+}
+
+.searchMachine {
+  margin-top: 1em;
+}
+
+.searchBox {
+  display: -ms-grid;
+  display: grid;
+}
+
+.searchBox form {
+  margin: 0 auto;
+}
+
+.searchBox input {
+  padding: 1px 2px 1px 20px;
+  width: 561px;
+  height: 44px;
+  border-radius: 10em;
+}
+
+.searchBox form::after {
+  background-image: url(https://profiletree.com/wp-content/uploads/2019/11/voice-search-google-icon.png.webp);
+  background-size: 15px 19px;
+  display: inline-block;
+  width: 15px;
+  height: 19px;
+  content: '';
+  position: relative;
+  right: 40px;
+  top: 5px;
+}
+
+.searchBox input:focus {
+  outline: none;
+}
+
+.searchBox form::after:hover {
+  outline: 1px solid black;
+}
+
+.tab-container {
+  height: 266px;
+  margin-top: 22px;
+}
+
+.tab-links-one,
+.tab-links-two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 1.5em;
+}
+
+.tab-links-one li,
+.tab-links-two li {
+  width: 112px;
+  height: 100px;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.tab-links-one a,
+.tab-links-two a {
+  margin-top: -1em;
+  font-size: 0.78em;
+}
+
+.circle {
+  width: 45px;
+  height: 45px;
+  background-color: #c7c7c7;
+  border-radius: 50%;
+  text-align: center;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  margin-top: -0.5em;
+  font-size: 1.5rem;
+}
+
+footer {
+  position: absolute;
+  left: 99%;
+  top: 98%;
+  -webkit-transform: translate(-100%, -100%);
+          transform: translate(-100%, -100%);
+}
+
+footer button {
+  border-style: none;
+  background-color: #292a2d;
+  color: #8ab4f8;
+  width: 112.59px;
+  height: 32px;
+  border-radius: 2em;
+  padding: 0 12px 0 8px;
+  text-align: right;
+}
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,208 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+/* Font for Google logo | Wala sa google font */
+@font-face {
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  min-height: 100vh;
+
+}
+
+nav {
+  padding: 10px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 10px;
+  height: 48px;
+
+  li {
+    font-size: 15px;
+    padding-left: 15px;
+    display: grid;
+    place-items: center;
+    color: rgba(0, 0, 0, 0.87);
+    font-weight: 100;
+  }
+
+  .gb_Ka {
+    background-size: 64px 64px;
+    border: 0; 
+    border-radius: 50%;
+    display: block;
+    margin: 0;
+    position: relative;
+    height: 32px;
+    width: 32px;
+    z-index: 0;
+    bottom: 4px;
+  }
+}
+
+.gb_Cc {
+  height: 35px;
+  width: 35px;
+  padding: 4px;
+  position: relative;
+  bottom: 4px;
+}
+
+main {
+  display: grid;
+}
+
+.logo {
+  margin: 0 auto;
+  height: 238px;
+
+  .title {  
+    position: relative;
+    top: 138px;
+    margin-top: -50px;
+    font-family: 'Product Sans';
+    font-size: 6rem;
+    font-weight: 600;
+  }
+
+  .blue {
+    color: #4285f4
+  }
+
+  .red {
+    color: #ea4335
+  }
+
+  .tilt {
+    display: inline-block;
+    transform: rotate(-20deg);
+  }
+
+  .green {
+    color: #34a853
+  }
+
+  .yellow {
+    color: #fbbc05;
+  }
+}
+
+.searchMachine {
+  margin-top: 1em;
+}
+
+.searchBox  {
+  display: grid;
+
+  form {
+    margin: 0 auto;
+  }
+
+  input{   
+    padding: 1px 2px 1px 20px;
+    width: 561px;
+    height: 44px;
+    border-radius: 10em;
+  }
+
+  form::after {
+    background-image: url(https://profiletree.com/wp-content/uploads/2019/11/voice-search-google-icon.png.webp);
+    background-size: 15px 19px;
+    display: inline-block;
+    width: 15px;
+    height: 19px;
+    content: '';
+
+    position: relative;
+    right: 40px;
+    top: 5px;
+  }
+
+  input:focus {
+    outline: none;
+  }
+
+  form::after:hover{
+    outline: 1px solid black;
+  }
+}
+
+
+.tab-container {
+  height: 266px;
+  margin-top: 22px;
+
+}
+
+.tab-links-one ,
+.tab-links-two {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5em;
+
+  
+  li {
+    width: 112px;
+    height: 100px;
+    display:grid;
+    place-items: center;
+  }
+
+  a {
+    margin-top: -1em;
+    font-size: 0.78em;
+  }
+}
+
+.circle {
+  width: 45px;
+  height: 45px;
+  background-color: rgb(199, 199, 199);
+  border-radius: 50%;
+  text-align: center;
+  display: grid;
+  place-items: center;
+  margin-top: -0.5em;
+
+  font-size: 1.5rem;
+}
+
+
+
+footer {
+  position: absolute;
+  left: 99%;
+  top: 98%;
+  transform: translate(-100%,-100%);
+
+  button {
+    border-style: none;
+    background-color: rgb(41, 42, 45);
+    color: #8ab4f8;
+    width: 112.59px;
+    height: 32px;
+    border-radius: 2em;
+    padding: 0 12px 0 8px;
+    text-align: right;
+  }
+  
+}
